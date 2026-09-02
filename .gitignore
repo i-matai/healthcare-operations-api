@@ -1,0 +1,28 @@
+# Environment and local virtual environments
+.env
+.env.*
+!.env.example
+.venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Tool caches
+.ruff_cache/
+
+# Editor and OS artifacts
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
